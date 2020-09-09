@@ -1,5 +1,7 @@
 import * as C from './constant'
-
+// 在字符串前面填充字符
+// 例如输入 string = '8', length = '4', pad = 'x'
+// 输出 xxx8
 const padStart = (string, length, pad) => {
   const s = String(string)
   if (!s || s.length >= length) return string
